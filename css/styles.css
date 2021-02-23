@@ -1,0 +1,52 @@
+.next {
+    cursor: pointer;
+    padding: 18px;
+    width: 28% ;
+    border: 1px solid #ccc;
+    margin: auto;
+    background: url(../img/seta-baixo.png) no-repeat;
+    border-radius: 5px;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
+.categoriaA{
+    border:solid 2px;
+    border-radius:20px;
+}
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.imagemBg {
+
+    background: url(../img/autoescola_slide_1.jpg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle{
+    color: #fff;
+    background-color: #F7B432;
+    border-color: #F7B432;
+}
+
+.botaoPainel{
+    border-radius: 50px;
+}
+.botaoPainel:hover{
+    background-color: #000;
+}
